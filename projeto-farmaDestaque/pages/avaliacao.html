@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avaliação da Experiência</title>
+    <link rel="stylesheet" href="../css/avaliacao.css" />
+  </head>
+  <body>
+    <header>
+      <img src="logo.png" alt="Logo" class="logo" />
+      <h1>Farmácia Destaque</h1>
+      <button id="cancel-button">Voltar</button>
+    </header>
+
+    <main>
+      <section aria-labelledby="avaliacao">
+        <h2 id="avaliacao">Como você nos avalia?</h2>
+
+        <div class="emoji-container">
+          <div class="emoji" id="emoji-indiferente">
+            <img src="emoji1.png" alt="Indiferente" />
+            <p>Indiferente</p>
+          </div>
+          <div class="emoji" id="emoji-pouco">
+            <img src="emoji2.png" alt="Pouco Satisfeito" />
+            <p>Pouco Satisfeito</p>
+          </div>
+          <div class="emoji" id="emoji-moderado">
+            <img src="emoji3.png" alt="Moderado" />
+            <p>Moderado</p>
+          </div>
+          <div class="emoji" id="emoji-satisfeito">
+            <img src="emoji4.png" alt="Satisfeito" />
+            <p>Satisfeito</p>
+          </div>
+          <div class="emoji" id="emoji-muito">
+            <img src="emoji5.png" alt="Muito Satisfeito" />
+            <p>Muito Satisfeito</p>
+          </div>
+        </div>
+
+        <label for="feedback">Descreva melhor sua experiência:</label>
+        <textarea id="feedback" name="feedback" rows="4"></textarea>
+
+        <div class="error-message" id="error-message"></div>
+
+        <button type="button" id="send-button">Enviar</button>
+      </section>
+    </main>
+
+    <script src="../js/script.js"></script>
+  </body>
+</html>
