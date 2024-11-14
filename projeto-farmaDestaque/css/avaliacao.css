@@ -116,6 +116,17 @@ h2 {
   cursor: pointer;
 }
 
+.emoji.selecionado {
+  border: 2px solid black;
+  transform: scale(1.1); 
+  background-color: rgb(148, 143, 143)
+}
+
+
+.emoji:hover {
+  transform: scale(1.1); 
+}
+
 .emoji img {
   width: 65px;
   height: 65px;
@@ -141,6 +152,7 @@ textarea {
   margin-top: 10px;
   text-align: center;
 }
+
 
 @media (min-width: 600px) and (max-width: 1024px) and (orientation: landscape) {
   body {
